@@ -20,6 +20,10 @@ import Options from "./icons/options.png";
 import VIP from "./icons/vip.png";
 import Chat from "./icons/chat.png";
 import Duo from "./icons/duo.png";
+import Stepscards from "../../Components/Cards/StepsCards";
+import CardIcon from "../Homepage/cards.png";
+import CardIcon2 from "../Homepage/cards2.png";
+import CardIcon3 from "../Homepage/cards3.png";
 
 function Boosting() {
   const features = [
@@ -69,6 +73,24 @@ function Boosting() {
       icon: Duo,
     },
   ].map((item, i) => ({ _id: "f-" + i, ...item }));
+
+  const stepsdata = [
+    {
+      icon: CardIcon,
+      title: "Pick your service",
+      text: "With our services we will boost you to your desired rank in no time.",
+    },
+    {
+      icon: CardIcon2,
+      title: "Choose  payment option",
+      text: "Payments are accepted worldwide and they are instantly processed.",
+    },
+    {
+      icon: CardIcon3,
+      title: "Track your order",
+      text: "You're all set now, take it easy and watch your order be completed!",
+    },
+  ].map((item, i) => ({ _id: "s-" + i, ...item }));
 
   return (
     <>
@@ -208,8 +230,9 @@ function Boosting() {
 
       <div className="steps ">
         <h3>Easy steps to follow</h3>
-        <div></div>
+        <Stepscards data={stepsdata} />
       </div>
+
       <div>
         <JoinUs />
       </div>
