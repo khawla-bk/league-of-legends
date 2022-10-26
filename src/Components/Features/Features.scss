@@ -1,0 +1,42 @@
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 28%;
+  background: #1a1e30;
+  border-radius: 12px;
+  margin-bottom: 32px;
+
+  .feature-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+
+    img {
+      width: 30px;
+      height: 30px;
+      fill: #85b6ff;
+      padding-right: 8px;
+    }
+
+    h6 {
+      font-family: "Clash Display";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+      margin: 0;
+    }
+  }
+
+  p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+}

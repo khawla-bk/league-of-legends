@@ -1,0 +1,52 @@
+@import url("http://fonts.cdnfonts.com/css/clash-display");
+
+$priamry: #000112;
+$secondary: #010851;
+$light-blue: #4d9ee9;
+$white: white;
+
+body {
+  background-color: $priamry;
+  box-sizing: content-box;
+  font-family: "Clash Display";
+  //width: 80%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: $white;
+  font-family: "Clash Display";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+h2 {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+h6 {
+  color: $white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+p {
+  font-size: 18px;
+  color: $white;
+  word-spacing: 2px;
+  margin: 0;
+}

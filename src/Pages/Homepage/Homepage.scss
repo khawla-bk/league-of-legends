@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap");
+
+.MainHeroSection {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(galaxy-slayer-zed.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HeroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 720px !important;
+
+  h1 {
+    margin-bottom: 0;
+  }
+  h6 {
+    margin-top: 24px;
+  }
+}
+
+.HeroButton {
+  color: white;
+  padding: 16px 24px;
+  background-image: linear-gradient(to right, #010851, #4d9ee9);
+  border-radius: 24px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.WhoAreWeSection {
+  padding: 58px 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(storm-dragon-lee-sin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .WhoAreWeMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .WhoAreWerText {
+    color: white;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .WhoAreWeDescription {
+    padding: 0 280px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+}
+
+.WhoAreWeCards {
+  display: flex;
+  justify-content: space-around;
+  width: 46%;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 56px auto 0 auto;
+  text-align: center;
+
+  .cards {
+    padding: 24px;
+  }
+
+  .png {
+    padding-bottom: 8px;
+  }
+
+  p {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  #firstCard {
+    background: linear-gradient(106.99deg, #55f1f5 -28.53%, #010851 57.36%);
+    border-radius: 20px;
+  }
+
+  #secondCard {
+    background: #010851;
+    border-radius: 20px;
+  }
+
+  #thirdCard {
+    background: linear-gradient(113.5deg, #010851 51.87%, #55f1f5 116.79%);
+    border-radius: 20px;
+  }
+}
+.howItWorksMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .howItWorksTitle {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 69px;
+    padding: 90px 0 50px 0;
+  }
+}
+.serviceText {
+  color: white !important;
+  margin-bottom: 16px;
+}
+
+.pngBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .pngText {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+  }
+}
+
+.pngButtonText {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  background: linear-gradient(95.11deg, #4996e1 8.49%, #010851 102.08%);
+  border-radius: 12px;
+  padding: 12px 24px;
+  width: 21%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.TeamSection {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto auto 120px;
+
+  .TeamSectionTitle {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 140%;
+    padding: 0 400px 20px 400px;
+    text-align: center;
+  }
+
+  .TeamCardsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.joinUsSection {
+  padding: 0 85px;
+  margin-bottom: 180px;
+
+  .joinUsMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./discord.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 100px 0;
+    border-radius: 20px;
+
+    .JoinTitle {
+      font-family: "Clash Display";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 59px;
+      margin-bottom: 16px;
+    }
+
+    .JoinSubTitle {
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 56px;
+    }
+  }
+}

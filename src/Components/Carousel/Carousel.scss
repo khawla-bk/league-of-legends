@@ -1,0 +1,68 @@
+.carousel:last-of-type {
+  display: none;
+}
+
+.control-arrow:hover {
+  background-color: transparent !important;
+}
+
+.slider-wrapper {
+  align-items: center;
+}
+
+.carousel-slider {
+  width: 60% !important;
+  margin: auto !important;
+}
+
+.carousel {
+  .control-dots {
+    display: none;
+  }
+
+  .carousel-status {
+    display: none;
+  }
+}
+.carousel-img {
+  width: 60px !important;
+}
+
+.rank-carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  margin: auto;
+  white-space: nowrap;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 40px;
+
+  .arrow {
+    width: 32px !important;
+  }
+
+  #gold {
+    color: #cd8837;
+  }
+
+  #diamond {
+    color: #576bce;
+  }
+}
+
+.CarouselText {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.6);
+  width: 60%;
+  margin: auto;
+}

@@ -1,0 +1,51 @@
+.CustomCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 80px;
+
+  .CustomCardImage {
+    border-radius: 30px;
+  }
+
+  .CustomCardText {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+
+    .CustomCardTitle {
+      font-family: "Clash Display";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      color: white;
+    }
+
+    .CustomCardDescription {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  .CustomCardPTitleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 61%;
+
+    .CustomCardPng {
+      height: 35px;
+      background: #4996e1;
+      border-radius: 12px;
+      padding: 4px;
+    }
+  }
+}
