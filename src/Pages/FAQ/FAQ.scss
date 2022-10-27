@@ -1,0 +1,39 @@
+.hero-faq {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(kindred.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 445px;
+}
+
+.main-body-faq {
+  background: #f1f5fd;
+  padding: 98px;
+
+  .accordion-container {
+    padding: 40px 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 60%;
+    margin: auto;
+
+    h2 {
+      font-family: "Clash Display";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #1f1f1f;
+      margin: 0 auto 24px auto;
+    }
+  }
+}
