@@ -25,6 +25,8 @@ import CardIcon from "../Homepage/cards.png";
 import CardIcon2 from "../Homepage/cards2.png";
 import CardIcon3 from "../Homepage/cards3.png";
 
+//ajax method should be used to change divs content ++ create sseperate pages fer each boosting type
+
 function Boosting() {
   const features = [
     {

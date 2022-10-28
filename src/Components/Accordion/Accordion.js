@@ -17,7 +17,7 @@ function CustomAccordion() {
         >
           <Typography>1. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -32,7 +32,7 @@ function CustomAccordion() {
         >
           <Typography>2. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -47,7 +47,7 @@ function CustomAccordion() {
         >
           <Typography>3. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -62,7 +62,7 @@ function CustomAccordion() {
         >
           <Typography>4. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -77,7 +77,7 @@ function CustomAccordion() {
         >
           <Typography>5. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -92,7 +92,7 @@ function CustomAccordion() {
         >
           <Typography>6. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -107,7 +107,7 @@ function CustomAccordion() {
         >
           <Typography>7. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -122,7 +122,7 @@ function CustomAccordion() {
         >
           <Typography>8. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -137,7 +137,7 @@ function CustomAccordion() {
         >
           <Typography>9. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -152,7 +152,7 @@ function CustomAccordion() {
         >
           <Typography>10. when is a good time to start boosting ? </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="accordion-details">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
