@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import NotFound from "./Pages/404/404";
-//import Login from './Pages/Login/Login';
+import Login from "./Pages/Login/Login";
 import Boosting from "./Pages/Boosting/Boosting";
 import Homepage from "./Pages/Homepage/Homepage";
 import Faq from "./Pages/FAQ/FAQ";
@@ -14,6 +14,7 @@ function App() {
         <Route exact path="/" element={<Homepage />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/boosting" element={<Boosting />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/faq" element={<Faq />} />
       </Routes>
     </div>
