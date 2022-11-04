@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { current } from "./redux/actions/userActions";
 import NotFound from "./Pages/404/404";
 import Login from "./Pages/Login/Login";
+import Register from "./Pages/Register/Register";
 import Boosting from "./Pages/Boosting/Boosting";
 import Homepage from "./Pages/Homepage/Homepage";
 import Faq from "./Pages/FAQ/FAQ";
@@ -28,6 +29,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
           <Route path="/boosting" element={<Boosting />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/faq" element={<Faq />} />
         </Routes>
       </BrowserRouter>

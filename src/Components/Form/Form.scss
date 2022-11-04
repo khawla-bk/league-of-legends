@@ -1,0 +1,38 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  input {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.3);
+    background: #444e7d;
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+    width: 70%;
+    margin-bottom: 24px;
+  }
+  input::placeholder {
+    padding-left: 12px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  [type="submit"] {
+    background: linear-gradient(94.53deg, #010851 1.62%, #4d9ee9 103.35%);
+    border-radius: 24px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    width: 80%;
+    height: 55px;
+    cursor: pointer;
+  }
+}

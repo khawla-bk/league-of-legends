@@ -1,75 +1,85 @@
-.LoginPage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: black;
-  margin: 100px auto;
-  padding: 32px 0;
-  background: #1a1e30;
-  border-radius: 20px;
-  width: 65%;
-  p {
-    font-family: "Outfit";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 66px;
-    padding-bottom: 24px;
-  }
+.mainLogin {
+  background: rgb(2, 10, 83);
+  background: linear-gradient(
+    128deg,
+    rgba(2, 10, 83, 1) 51%,
+    rgba(73, 150, 224, 1) 100%
+  );
+  padding: 220px 0 120px 0;
 
-  .sm-buttons {
-    border-top: 1px solid rgba(163, 165, 172, 0.5);
-    padding-top: 48px;
+  .LoginPage {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-    button {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      height: 36px;
-      width: 360px;
-      padding: 8px 0 !important;
-      background: rgba(255, 255, 255, 0.95);
-      border: 1px solid #000000;
-      border-radius: 8px !important;
-      font-family: "Outfit" !important;
-      font-style: normal !important;
-      font-weight: 400 !important;
-      font-size: 12px !important;
-      line-height: 15px;
-      color: black !important;
-      margin-bottom: 24px;
-      text-transform: capitalize;
-
-      div {
-        padding: 8px 0 0 !important;
-        margin: 0 !important;
-      }
-    }
-    svg {
-      width: 24px;
-      height: 24px;
-      padding-right: 10px;
-    }
-  }
-
-  .login-form {
-    width: 90%;
+    background-color: black;
     margin: auto;
-    padding: 24px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 32px 0;
+    background: #1a1e30;
+    border-radius: 20px;
+    width: 65%;
     p {
       font-family: "Outfit";
       font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px;
-      text-align: center;
-      color: rgba(255, 255, 255, 0.6);
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 66px;
+      padding-bottom: 24px;
+    }
+
+    .sm-buttons {
+      border-top: 1px solid rgba(163, 165, 172, 0.5);
+      padding-top: 48px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        width: 360px;
+        padding: 8px 0 !important;
+        background: rgba(255, 255, 255, 0.95);
+        border: 1px solid #000000;
+        border-radius: 8px !important;
+        font-family: "Outfit" !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 15px;
+        color: black !important;
+        margin-bottom: 24px;
+        text-transform: capitalize;
+
+        div {
+          padding: 8px 0 0 !important;
+          margin: 0 !important;
+        }
+      }
+      svg {
+        width: 24px;
+        height: 24px;
+        padding-right: 10px;
+      }
+    }
+
+    .login-form {
+      width: 90%;
+      margin: auto;
+      padding: 24px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      p {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.6);
+      }
     }
   }
 }
