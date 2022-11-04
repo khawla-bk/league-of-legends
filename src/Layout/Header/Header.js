@@ -28,7 +28,9 @@ function Header() {
             </Link>
 
             <p>Work with us</p>
-            <p className="CustomerButton">Customer Area</p>
+            <Link to="/login" className="nav-links">
+              <p className="CustomerButton">Customer Area</p>
+            </Link>
           </div>
         </div>
       </div>

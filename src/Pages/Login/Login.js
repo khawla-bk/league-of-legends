@@ -1,18 +1,20 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { GoogleLogin } from "react-google-login";
 import { gapi } from "gapi-script";
 import FacebookLogin from "react-facebook-login";
 import Header from "../../Layout/Header/Header";
 import Footer from "../../Layout/Footer/Footer";
 import "./Login.scss";
+import { useDispatch } from "react-redux";
+import { login } from "../../redux/actions/userActions";
 
-function Login() {
+function Login({ history }) {
   const clientId =
     "7219911641-2493u4u8ts991mea5phe98s5stuhj91o.apps.googleusercontent.com";
 
   useEffect(() => {
     const initClient = () => {
-      gapi.client.init({
+      gapi.auth2.init({
         clientId: clientId,
         scope: "",
       });
@@ -25,8 +27,19 @@ function Login() {
   const onFailure = (err) => {
     console.log("failed:", err);
   };
+
   const responseFacebook = (response) => {
     console.log(response);
+  };
+
+  const [user, setUser] = useState({ email: "", password: "" });
+  const dispatch = useDispatch();
+  const handleChange = (e) => {
+    setUser({ ...user, [e.target.name]: e.target.value });
+  };
+  const handleLogin = (e) => {
+    e.preventDefault();
+    dispatch(login(user, history));
   };
 
   return (
@@ -37,14 +50,13 @@ function Login() {
         <div className="sm-buttons">
           <GoogleLogin
             clientId={clientId}
-            buttonText="Log in in with Google"
+            buttonText="Login with Google"
             onSuccess={onSuccess}
             onFailure={onFailure}
             cookiePolicy={"single_host_origin"}
             isSignedIn={true}
           />
           <FacebookLogin
-            btnContent="Log in with Facebook"
             appId="185202659227880"
             fields="name,email,picture"
             onSuccess={responseFacebook}
@@ -65,6 +77,28 @@ function Login() {
               />
             </svg>
           />
+        </div>
+        <div className="login-form">
+          <p>Or login with your credentials or register an account.</p>
+          <form onSubmit={handleLogin}>
+            <div>
+              <input
+                type="text"
+                name="E-mail *"
+                required={true}
+                onChange={handleChange}
+              />
+            </div>
+            <div>
+              <input
+                type="password"
+                name="Password *"
+                required={true}
+                onChange={handleChange}
+              />
+              <button>Login</button>
+            </div>
+          </form>
         </div>
       </div>
       <Footer />
