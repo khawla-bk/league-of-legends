@@ -1,27 +1,75 @@
 .LoginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
-  margin-top: 100px;
+  margin: 100px auto;
+  padding: 32px 0;
+  background: #1a1e30;
+  border-radius: 20px;
+  width: 65%;
+  p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 66px;
+    padding-bottom: 24px;
+  }
 
-  button {
+  .sm-buttons {
+    border-top: 1px solid rgba(163, 165, 172, 0.5);
+    padding-top: 48px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 36px;
-    width: 40%;
-    padding: 8px 0 !important;
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid #000000;
-    border-radius: 8px !important;
-    font-family: "Outfit" !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 12px !important;
-    line-height: 15px;
-    color: black !important;
+
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 36px;
+      width: 360px;
+      padding: 8px 0 !important;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid #000000;
+      border-radius: 8px !important;
+      font-family: "Outfit" !important;
+      font-style: normal !important;
+      font-weight: 400 !important;
+      font-size: 12px !important;
+      line-height: 15px;
+      color: black !important;
+      margin-bottom: 24px;
+      text-transform: capitalize;
+
+      div {
+        padding: 8px 0 0 !important;
+        margin: 0 !important;
+      }
+    }
+    svg {
+      width: 24px;
+      height: 24px;
+      padding-right: 10px;
+    }
   }
-}
-svg {
-  width: 24px;
-  height: 24px;
+
+  .login-form {
+    width: 90%;
+    margin: auto;
+    padding: 24px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    p {
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
 }
