@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { register } from "../../redux/actions/userActions";
+import "./Form.scss";
 
 function RegisterForm({ history }) {
   const [user, setUser] = useState({ username: "", password: "" });
@@ -15,22 +16,32 @@ function RegisterForm({ history }) {
   };
 
   return (
-    <div>
-      <div>
-        <form onSubmit={handleRegister}>
-          <div>
-            <input
-              type="email"
-              name="email"
-              placeholder="E-mail *"
-              required={true}
-              onChange={handleChange}
-            />
-          </div>
+    <div className="register-form">
+      <form onSubmit={handleRegister}>
+        <input
+          type="text"
+          name="uername"
+          placeholder="Username *"
+          required={true}
+          onChange={handleChange}
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="E-mail *"
+          required={true}
+          onChange={handleChange}
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password *"
+          required={true}
+          onChange={handleChange}
+        />
 
-          <input type="submit" value="Register" />
-        </form>
-      </div>
+        <input type="submit" value="Register" />
+      </form>
     </div>
   );
 }

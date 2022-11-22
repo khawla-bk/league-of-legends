@@ -121,6 +121,7 @@
       gap: 24px;
 
       .rank-selection-box {
+        padding-top: 16px 32px;
         .rank-selection-title {
           font-family: "Clash Display";
           font-style: normal;
@@ -160,15 +161,29 @@
               border-radius: 12px;
               padding: 12px;
               cursor: pointer;
-              width: 48px;
+              width: 60px;
+            }
+            #iron:hover {
+              background-color: #51484a;
             }
 
-            #platinum:hover {
+            #bronze:hover {
+              background-color: #8c513a;
+            }
+            #silver:hover {
+              background-color: #80989d;
+            }
+            #gold:hover {
+              background-color: #cd8837;
+            }
+            #plat:hover {
               background-color: #4e9996;
             }
-
             #diamond:hover {
               background-color: #576bce;
+            }
+            #master:hover {
+              background-color: #9d48e0;
             }
           }
         }
