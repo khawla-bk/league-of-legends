@@ -33,11 +33,11 @@ function LoginForm({ history }) {
           onChange={handleChange}
         />
 
-        <p className="forgotPAssword">Frogot your password ?</p>
+        <p className="forgotPassword">Frogot your password ?</p>
         <input type="submit" value="Login" />
 
-        <Link to="/register">
-          <p className="createAccount">Create Account</p>
+        <Link to="/register" className="createAccount">
+          <p>Create Account</p>
         </Link>
       </form>
     </div>
